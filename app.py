@@ -18,8 +18,9 @@ def index():
       'time': timeString
       }
 #   output(1, 0, 0, False, f'I Love You To The Infinity And Beyond!!! T{chr(3)}M')
-   output(1, 0, 0, False, f'T{chr(3)}M')
-   return render_template('index.html', **templateData)
+#   output(1, 0, 0, False, f'T{chr(3)}M')
+   return render_template("index.html")
+#   return "<h1>Hola Mundo</h1>" #render_template('index.html', **templateData)
 
 @app.route("/message", methods=["GET","POST"])
 def send_message():
