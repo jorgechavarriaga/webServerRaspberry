@@ -1,0 +1,6 @@
+flask==1.0.2
+gTTS==2.3.0
+luma==2.1.5
+luma.core==2.4.0
+luma.led-matrix==1.7.0
+luma.oled==3.9.0
