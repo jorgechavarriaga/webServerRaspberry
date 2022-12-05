@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for, flash
-from msgMatrix import output, outputSlow
-from textToSpeech import textToSpeech
+from libraries.msgMatrix import output, outputSlow
+from libraries.textToSpeech import textToSpeech
 import datetime, time
 
 app = Flask(__name__)
